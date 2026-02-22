@@ -601,6 +601,7 @@
 
 
 
+
 /* End Section-nine */
 /* Section ten */
 .section-ten {
@@ -636,3 +637,67 @@
 
 }
 /* End Section ten */
+/* Section-eleven */
+.section-eleven {
+    margin-top: 100px;
+}
+.section-eleven .inner-wrap{
+    background: #DCE8EB;
+    padding: 100px 80px;
+}
+.section-eleven .inner-wrap .inner-label{
+    color: #777777;
+    font-weight: 700;
+}
+.section-eleven .inner-wrap .inner-title{
+    font-size: 50px;
+}
+.section-eleven .inner-wrap .input-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.section-eleven .inner-wrap .inner-form .input-group input{
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    width: 32%;
+}
+.section-eleven .inner-wrap .inner-form textarea{
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.section-eleven .inner-form .btn-in-form{
+    color: #fff;
+    background: #000;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    position: absolute;
+    right: 0;
+    bottom: -80;
+    
+
+}
+.section-eleven .inner-form .btn-in-form:hover{
+    background: var(--color-one);
+    color: #000;
+}
+.section-eleven .inner-form {
+    position: relative;
+}
+/* End Section-eleven */
+/* Footer */
+.footer {
+    margin-top: 100px;
+    background: var(--color-header);
+    padding: 30px;
+    text-align: center;
+}
+.footer .inner-title{
+    color: #fff;
+}
+/* End Footer */

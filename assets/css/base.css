@@ -1,48 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-:root{
+:root {
     --color-one: #f7d9c4;
     --color-two: #DCE8EB;
     --color-header: #232323;
     --color-text: #ACA4A3;
 
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-body{
+
+body {
     font-family: "DM Sans", sans-serif;
     background: #EFEFEF;
 }
-.container{
+
+.container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-.btn{
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 100%;
+        max-width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+.btn {
     width: 180px;
     height: 60px;
     border-radius: 5px;
     padding: 10px 20px;
     font-weight: 600;
 }
-.btn1{
+
+.btn1 {
     color: var(--color-header);
     background: var(--color-one);
 }
-.btn1:hover{
+
+.btn1:hover {
     background: #fff;
 }
-.btn2{
+
+.btn2 {
     color: #fff;
     background: transparent;
 
 }
-.btn2:hover{
+
+.btn2:hover {
     color: var(--color-header);
     background-color: var(--color-one);
 }
