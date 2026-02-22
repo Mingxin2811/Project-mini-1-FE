@@ -602,3 +602,37 @@
 
 
 /* End Section-nine */
+/* Section ten */
+.section-ten {
+    padding-top: 100px;
+    background: #DCE8EB;
+}
+.section-ten .inner-wrap{
+    text-align: center;
+    position: relative;
+
+}
+.section-ten .inner-wrap .inner-title{
+    font-size: 50px;
+
+}
+.section-ten .inner-wrap img{
+    width: 100%;
+    aspect-ratio: 6/4;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.section-ten .inner-wrap i{
+   position: absolute;
+    top: 450px;
+    left: 572px;
+    font-size: 30px;
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 60%;
+    padding: 50px;
+
+}
+/* End Section ten */
