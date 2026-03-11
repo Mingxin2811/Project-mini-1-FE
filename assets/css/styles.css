@@ -82,6 +82,9 @@
 }
 
 @media (max-width:991.98px) {
+    .header .header-wrap{
+        height: 100%;
+    }
     .header .inner-menu {
         display: none;
     }
@@ -91,7 +94,7 @@
     }
 
     .header .inner-bar {
-        display: inline;
+        display: inline-block;
     }
 
 }
