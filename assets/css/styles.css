@@ -24,10 +24,12 @@
 
 .header .inner-logo .inner-title {
     color: var(--color-header);
+    font-weight: 800;
+    font-size: 25px;
 
 }
 
-.header .inner-logo {
+.header .inner-logo a{
     display: flex;
     align-items: center;
 }
@@ -150,7 +152,7 @@
 }
 
 .section-two .inner-wrap .inner-img {
-    width: 50%;
+    width: 48%;
 }
 
 .section-two .inner-wrap .inner-img img {
@@ -174,7 +176,9 @@
 
 
 }
-
+.section-two .inner-content {
+    width: 48%;
+}
 .section-two .inner-content .inner-feature .inner-box {
     margin-bottom: 30px;
     width: 150px;
@@ -205,11 +209,7 @@
     margin-bottom: 20px;
 }
 
-.section-two .inner-content .read-more {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 @media (max-width:991.98px) {
     .section-two .inner-wrap .inner-img {
